@@ -1,0 +1,27 @@
+.navbar-brand{
+    background: red;
+    padding: 20px;
+    
+    
+}
+
+.ml-6{
+    margin-left: 9rem!important;
+}
+body{
+    background-image: url(profile.png);
+    
+}
+
+.mybackground{
+    background: white;
+}
+
+.footer{
+text-align: center;
+position: absolute;
+bottom: 0;
+display: block;
+width: 100%;
+border-top: 5px solid aqua;
+}
