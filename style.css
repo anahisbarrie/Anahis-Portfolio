@@ -1,5 +1,5 @@
 .navbar-brand{
-    background: red;
+    background:#4aaaa5;
     padding: 20px;
     
     
@@ -9,7 +9,7 @@
     margin-left: 9rem!important;
 }
 body{
-    background-image: url(profile.png);
+    background-image: url(backimage.png);
     
 }
 
@@ -23,5 +23,17 @@ position: absolute;
 bottom: 0;
 display: block;
 width: 100%;
-border-top: 5px solid aqua;
+border-top: 3px solid #4aaaa5;
+
+}
+
+.text{
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+
+.borderlf {
+border-left:1px solid#efefef;
+
 }
