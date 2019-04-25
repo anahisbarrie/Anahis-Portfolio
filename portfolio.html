@@ -5,58 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap website</title>
-   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
- 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+      <div class="container">
         <a class="navbar-brand" href="#">Anahis Barrie</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav m-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link borderlf" href="portfolio.html">Portfolio</a>
               </li>
             <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link borderlf" href="contact.html">Contact</a>
             </li>
-    </nav>
+          </div>
+      </nav>
 
+<div class="container mt-5 bg-light">
+  <p class="text" style="height: 50px">Portfolio</p>  
   
-    
-    <div class="container">
-            <h1>Portfolio</h1>
-            <div class="row">
-                    <div class="col">Column</div>
-                    <div class="col">Column</div>
-                    <div class="w-100"></div>
-                    <div class="col">Column</div>
-                    <div class="col">Column</div>
+  <div class="container">
+
+      <div class="container">
+          <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+          <div class="row">
+          <div class="col-12 col-md-8">
+              <img  class="loat-left mx-0 mt-3" src="profile.png" width="150" height="150"  alt="Anahis Bolivar">
+              <img  class="offset-md-1 mt-3" src="profile.png" width="150" height="150"  alt="Anahis Bolivar">
+          </div>
+          <div class="col-6 col-md-4"></div>
+          </div>
+
+          <div class="row">
+              <div class="col-12 col-md-8">
+                  <img  class="loat-left mx-0 mt-3" src="profile.png" width="150" height="150"  alt="Anahis Bolivar">
+                  <img  class="offset-md-1 mt-3" src="profile.png" width="150" height="150"  alt="Anahis Bolivar">
+              </div>
+              <div class="col-6 col-md-4"></div>
+              </div>
+          
+
+              <div class="row">
+                  <div class="col-12 col-md-8">
+                      <img  class="float-left mx-0 mt-3 mb-4" src="profile.png" width="150" height="150"  alt="Anahis Bolivar">
                   </div>
+                  <div class="col-6 col-md-4"></div>
+                  </div>
+          </div>
+  </div>                 
+</div>
 
-
-
-
-    </div>
-   
-   
-   
-    <footer class="footer mt-suto py-3">
-        <div class="footer">
-            <span class="text-muted">This is the Sticky footer</span>
+<!-- <div class="container"> -->
+    <!-- <div class="row">
+      <div class="col-sm-9">
+        Level 1: .col-sm-9
+        <div class="row">
+          <div class="col-8 col-sm-6">
+            Level 2: .col-8 .col-sm-6
+          </div>
+          <div class="col-4 col-sm-6">
+            Level 2: .col-4 .col-sm-6
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </div> -->
 
-   
+    <footer class="footer py-3 bg-dark">
+            <p class="text-muted">Copyright &copy;</p>
+    </footer>
     
 
 

@@ -37,3 +37,28 @@ border-top: 3px solid #4aaaa5;
 border-left:1px solid#efefef;
 
 }
+
+.inputbutton{
+
+     padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+border-radius: 0;
+
+}
+/* 
+@media only screen and (max-width: 575px) {
+    .container {
+      width: 100%;
+    }
+  } 
+
+  @media only screen and (min-width: 576px) {
+    .container {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }  */
