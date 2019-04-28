@@ -10,6 +10,7 @@
 }
 body{
     background-image: url(backimage.png);
+    p
     
 }
 
@@ -81,4 +82,6 @@ border-radius: 0;
     overflow: none;
   }
 
-  
+  .navbar {
+    padding: 8px 16px;
+  }
