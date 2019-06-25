@@ -10,13 +10,11 @@
 }
 body{
     background-image: url(backimage.png);
-    p
+   
     
 }
 
-.mybackground{
-    background: white;
-}
+
 
 .footer{
 text-align: center;
@@ -33,6 +31,9 @@ margin-top: 40px;
     color: #4aaaa5;
     font-size: 30px;
     border-bottom: 3px solid #dddddd;
+    margin-bottom: 30px;
+    padding-bottom: 34px;
+
 }
 
 .borderlf {
@@ -84,4 +85,12 @@ border-radius: 0;
 
   .navbar {
     padding: 8px 16px;
+  }
+  .container{
+    padding-bottom: 30px;
+    margin-right: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+
   }
